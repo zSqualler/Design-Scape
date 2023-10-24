@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design Scape</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <!--Sprite-->
+  <svg style="display: none;">
+    <symbol id="facebook" viewBox="0 0 320 512">
+      <g>
+        <path
+          d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+      </g>
+    </symbol>
+
+    <symbol id="twitter" viewBox="0 0 512 512">
+      <g>
+        <path
+          d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+      </g>
+    </symbol>
+
+    <symbol id="google" viewBox="0 0 488 512">
+      <g>
+        <path
+          d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z" />
+      </g>
+    </symbol>
+  </svg>
+
+
+  <nav class="menu">
+    <div class="menu__top">
+      <a href="#home">
+        <img class="menu__logo" src="images/icons/menu-icons/logo.svg" alt="logo menu">
+      </a>
+      <a href="#">
+        <img class="menu__close" src="images/icons/menu-icons/icon-x.svg" alt="Close button">
+      </a>
+    </div>
+    <ul class="menu__items">
+      <li class="menu__item menu__item--home">
+        <a href="#home" class="menu__link">
+          Main
+        </a>
+      </li>
+      <li class="menu__item menu__item--about">
+        <a href="#services" class="menu__link">
+          About Us
+        </a>
+      </li>
+      <li class="menu__item menu__item--questions">
+        <a href="#questions" class="menu__link">
+          Questions
+        </a>
+      </li>
+      <li class="menu__item menu__item--reviews">
+        <a href="#reviews" class="menu__link">
+          Reviews
+        </a>
+      </li>
+      <li class="menu__item menu__item--contacts">
+        <a href="#contacts" class="menu__link">
+          Contacts
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+
+  <header class="header">
+    <div class="container">
+      <div id="home" class="header__inner anchor">
+        <img class="header__logo" src="images/logo.svg" alt="logo">
+        <button class="burger">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </button>
+      </div>
+      <h1 class="header__title">We implement modernization of architectural projects</h1>
+      <h4 class="header__subtitle">Stadiums, Bridges, Dames and more</h4>
+    </div>
+  </header>
+
+  <section class="about">
+    <div class="about__inner">
+      <div class="container">
+        <div class="about__grid">
+          <div class="about__grid-item">
+            <h4 class="about__grid-title">15</h4>
+            <h5 class="about__grid-subtitle">Years</h5>
+            <p class="about__text">In business</p>
+          </div>
+          <div class="about__grid-item">
+            <h4 class="about__grid-title">7</h4>
+            <h5 class="about__grid-subtitle">Offices</h5>
+            <p class="about__text">Around the world</p>
+          </div>
+          <div class="about__grid-item">
+            <h4 class="about__grid-title">14</h4>
+            <h5 class="about__grid-subtitle">Awards</h5>
+            <p class="about__text">In various categories</p>
+          </div>
+          <div class="about__grid-item">
+            <h4 class="about__grid-title">1000+</h4>
+            <h5 class="about__grid-subtitle">Clients</h5>
+            <p class="about__text">In our databases</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="project">
+    <div class="container">
+      <h2 class="text-h2 project__title anchor">Our Projects</h2>
+      <div class="project__items">
+        <div class="project__item">
+          <!-- <picture> -->
+            <!-- <source srcset="images/project/project-building.avif" type="image/avif"> -->
+            <!-- <source srcset="images/project/project-building.webp" type="image/webp"> -->
+            <!-- <source srcset="images/project/project-building.jpg" type="image/jpeg"> -->
+            <img class="project__item-img" src="images/project/project-building.jpg" alt="project img">
+          <!-- </picture> -->
+          <div class="project__item-rectangle"></div>
+          <h3 class="text-h3 project__item-title">Building's facade</h3>
+          <p class="text-p project__item-text">We envisioned and executed a striking facade design for the building,
+            seamlessly blending style and
+            functionality. The captivating facade serves as a testament to our commitment to architectural excellence.
+          </p>
+        </div>
+        <div class="project__item">
+          <!-- <picture> -->
+            <!-- <source srcset="images/project/project-bridge.avif" type="image/avif"> -->
+            <!-- <source srcset="images/project/project-bridge.webp" type="image/webp"> -->
+            <!-- <source srcset="images/project/project-bridge.jpg" type="image/jpeg"> -->
+            <img class="project__item-img" src="images/project/project-bridge.jpg" alt="project img">
+
+          <!-- </picture> -->
+          <div class="project__item-rectangle"></div>
+          <h3 class="text-h3 project__item-title">North Bridge</h3>
+          <p class="text-p project__item-text">Our company transformed the bridge's appearance through a refreshing
+            revamp, incorporating modern design elements and
+            enhancing its aesthetic appeal to create a stunning visual landmark.</p>
+        </div>
+
+        <div class="project__item">
+          <!-- <picture> -->
+            <!-- <source srcset="images/project/project-dam.avif" type="image/avif"> -->
+            <!-- <source srcset="images/project/project-dam.webp" type="image/webp"> -->
+            <!-- <source srcset="images/project/project-dam.jpg" type="image/jpeg"> -->
+            <img class="project__item-img" src="images/project/project-dam.jpg" alt="project img">
+          <!-- </picture> -->
+          <div class="project__item-rectangle"></div>
+          <h3 class="text-h3 project__item-title">Tourist Dam</h3>
+          <p class="text-p project__item-text">We designed a tourist dam, creating an exciting destination for visitors.
+            We have created a design that combines
+            functional and beauty, providing an unforgettable experience for tourists.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="request">
+    <div class="container">
+      <div class="request__inner">
+        <div class="request__content">
+          <h4 class="request__title">The smartest projects</h4>
+          <h5 class="request__subtitle">We implement the boldest solutions</h5>
+        </div>
+        <div class="request__button">
+          <button class="request__btn">
+            <img class="request__icon" src="images/icons/envelope-icon.svg" alt="Envelope">
+            Your request
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services">
+    <div class="container">
+      <h2 id="services" class="text-h2 services__title anchor">Our services</h2>
+      <div class="services__grid">
+        <div class="services__grid-item">
+          <img class="services__grid-icon" src="images/icons/services/services-01.svg" alt="Services Icon">
+          <h4 class="services__grid-title">Architectural design and planning</h4>
+          <h4 class="services__grid-title--hidden">Creating detailed design concepts, floor plans, and blueprints for
+            various types of buildings, including residential,
+            commercial, and institutional structures.</h4>
+        </div>
+        <div class="services__grid-item">
+          <img class="services__grid-icon" src="images/icons/services/services-02.svg" alt="Services Icon">
+          <h4 class="services__grid-title">Interior design</h4>
+          <h4 class="services__grid-title--hidden">Selecting materials, furnishings, and finishes, as well as designing
+            layouts and lighting schemes.
+          </h4>
+        </div>
+        <div class="services__grid-item">
+          <img class="services__grid-icon" src="images/icons/services/services-03.svg" alt="Services Icon">
+          <h4 class="services__grid-title">3D visualization and rendering</h4>
+          <h4 class="services__grid-title--hidden">We create realistic 3D visualizations and renderings of the proposed
+            project, allowing clients to better understand and
+            visualize the end result.
+          </h4>
+        </div>
+        <div class="services__grid-item">
+          <img class="services__grid-icon" src="images/icons/services/services-04.svg" alt="Services Icon">
+          <h4 class="services__grid-title">Sustainability and green design</h4>
+          <h4 class="services__grid-title--hidden">Expertise in the implementation of environmentally friendly
+            technologies. This includes optimizing energy efficiency,
+            using environmentally friendly materials and implementing renewable energy systems.
+          </h4>
+        </div>
+        <div class="services__grid-item">
+          <img class="services__grid-icon" src="images/icons/services/services-05.svg" alt="Services Icon">
+          <h4 class="services__grid-title">Building permit and approval assistance</h4>
+          <h4 class="services__grid-title--hidden">Our firm helps clients navigate the complex process of obtaining the
+            necessary permits and approvals from local
+            governments while ensuring compliance with building codes.
+          </h4>
+        </div>
+        <div class="services__grid-item">
+          <img class="services__grid-icon" src="images/icons/services/services-06.svg" alt="Services Icon">
+          <h4 class="services__grid-title">Project management</h4>
+          <h4 class="services__grid-title--hidden">The firm coordinates with contractors, monitors progress and ensures
+            that the project is completed on time and within
+            budget.
+          </h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio">
+    <div class="portfolio__grid">
+      <a class="portfolio__grid-item" href="images/portfolio/portfolio-1.jpg" data-fancybox=portfolio>
+        <img class="portfolio__img" src="images/portfolio/mini-1.jpg" alt="Portfolio image">
+      </a>
+      <a class="portfolio__grid-item" href="images/portfolio/portfolio-2.jpg" data-fancybox=portfolio>
+        <img class="portfolio__img" src="images/portfolio/mini-2.jpg" alt="Portfolio image">
+      </a>
+      <a class="portfolio__grid-item" href="images/portfolio/portfolio-3.jpg" data-fancybox=portfolio>
+        <img class="portfolio__img" src="images/portfolio/mini-3.jpg" alt="Portfolio image">
+      </a>
+      <a class="portfolio__grid-item" href="images/portfolio/portfolio-4.jpg" data-fancybox=portfolio>
+        <img class="portfolio__img" src="images/portfolio/mini-4.jpg" alt="Portfolio image">
+      </a>
+      <a class="portfolio__grid-item" href="images/portfolio/portfolio-5.jpg" data-fancybox=portfolio>
+        <img class="portfolio__img" src="images/portfolio/mini-5.jpg" alt="Portfolio image">
+      </a>
+      <a class="portfolio__grid-item" href="images/portfolio/portfolio-6.jpg" data-fancybox=portfolio>
+        <img class="portfolio__img" src="images/portfolio/mini-6.jpg" alt="Portfolio image">
+      </a>
+      <a class="portfolio__grid-item" href="images/portfolio/portfolio-7.jpg" data-fancybox=portfolio>
+        <img class="portfolio__img" src="images/portfolio/mini-7.jpg" alt="Portfolio image">
+      </a>
+      <a class="portfolio__grid-item" href="images/portfolio/portfolio-8.jpg" data-fancybox=portfolio>
+        <img class="portfolio__img" src="images/portfolio/mini-8.jpg" alt="Portfolio image">
+      </a>
+    </div>
+  </section>
+
+  <section class="questions">
+    <div class="container">
+      <h2 id="questions" class="text-h2 questions__title anchor">frequently asked questions</h2>
+      <div class="question__items">
+        <details class="questions__item">
+          <summary class="text-h3 questions__item-title">Can architectural design incorporate sustainable and green
+            building practices?</summary>
+          <p class="text-p questions__item-text">
+            Yes, architectural design can certainly incorporate sustainable and green building practices. Sustainable
+            design focuses on creating buildings that minimize their impact on the environment, conserve resources, and
+            provide healthier living and working environments. This can involve strategies such as energy-efficient
+            design, use of renewable materials, effective insulation, natural ventilation, daylighting, rainwater
+            harvesting, and incorporation of renewable energy systems. Many architectural designers specialize in
+            sustainable design and can offer expertise in incorporating these practices into your project.
+          </p>
+        </details>
+        <details class="questions__item">
+          <summary class="text-h3 questions__item-title">Why is architectural design important?</summary>
+          <p class="text-p questions__item-text">
+            Architectural design plays a crucial role in shaping our built environment. It ensures that buildings and
+            structures are not only visually appealing but also functional, safe, and sustainable. Good architectural
+            design enhances the quality of life, promotes well-being, and contributes to the cultural and social fabric
+            of a place. It also takes into account factors like energy efficiency, environmental impact, and
+            accessibility for all.
+          </p>
+        </details>
+        <details class="questions__item">
+          <summary class="text-h3 questions__item-title">What services do architectural designers provide?</summary>
+          <p class="text-p questions__item-text">
+            Architectural designers offer a range of services depending on the project scope and client requirements.
+            They can provide initial design concepts, prepare detailed architectural drawings and plans, assist with
+            obtaining necessary permits and approvals, collaborate with engineers and contractors, and oversee the
+            construction process. They can also provide guidance on interior design, materials selection, and
+            sustainable design practices, among other services.
+          </p>
+        </details>
+        <details class="questions__item">
+          <summary class="text-h3 questions__item-title">How long does the architectural design process typically take?
+          </summary>
+          <p class="text-p questions__item-text">
+            The duration of the architectural design process can vary significantly depending on the complexity and
+            scale of the project. Smaller residential projects may take a few weeks to a few months, while larger
+            commercial or public projects can take several months to a year or more. Factors like site constraints,
+            client feedback and approval processes, coordination with other consultants, and local regulations can also
+            impact the timeline.
+          </p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="request request__second">
+    <div class="container">
+      <div class="request__inner">
+        <div class="request__content">
+          <h4 class="request__title">Cooperation with us?</h4>
+          <h5 class="request__subtitle">Leave a request and we will contact you</h5>
+        </div>
+        <div class="request__button">
+          <button class="request__btn">
+            <img class="request__icon" src="images/icons/envelope-icon.svg" alt="Envelope">
+            Your request
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="reviews">
+    <div class="container">
+      <h2 id="reviews" class="text-h2 reviews__title anchor">Reviews about working with us</h2>
+      <div class="reviews__grid">
+        <div class="reviews__grid-item">
+          <div class="reviews__grid-card">
+            <div class="reviews__grid-quotes">“</div>
+            <p class="reviews__grid-text">This company demonstrated exceptional professionalism and expertise throughout
+              our project. Their dedication to delivering high-quality workmanship and their ability to adapt to
+              unexpected challenges were commendable. I highly recommend their services.</p>
+          </div>
+          <h4 class="reviews__grid-author">Olivia Anderson, <span>“Nexus Enterprises”</span></h4>
+        </div>
+        <div class="reviews__grid-item">
+          <div class="reviews__grid-card">
+            <div class="reviews__grid-quotes">“</div>
+            <p class="reviews__grid-text">Working with this company was a great experience. Their attention to detail
+              and quality craftsmanship exceeded my expectations. I highly recommend them for any design project.</p>
+          </div>
+          <h4 class="reviews__grid-author">Benjamin Cooper, <span>“Apex Innovations”</span></h4>
+        </div>
+        <div class="reviews__grid-item">
+          <div class="reviews__grid-card">
+            <div class="reviews__grid-quotes">“</div>
+            <p class="reviews__grid-text">I was impressed by the expertise and skill of this company. They transformed
+              our vision into reality with careful planning and flawless execution. I would happily work with them
+              again.</p>
+          </div>
+          <h4 class="reviews__grid-author">Emma Johnson, <span>“Stellar Solutions”</span></h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="partners">
+    <div class="container">
+      <h2 class="text-h2 partners__title">Our partners:</h2>
+      <div class="partners__items">
+        <div class="partners__item">
+          <img src="images/partners/partners-1.png" alt="Partners image">
+        </div>
+        <div class="partners__item">
+          <img src="images/partners/partners-2.png" alt="Partners image">
+        </div>
+        <div class="partners__item">
+          <img src="images/partners/partners-3.png" alt="Partners image">
+        </div>
+        <div class="partners__item">
+          <img src="images/partners/partners-4.png" alt="Partners image">
+        </div>
+        <div class="partners__item">
+          <img src="images/partners/partners-5.png" alt="Partners image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container">
+      <div class="contact__items">
+        <div class="contact__item contact__item--company">
+          <h4 class="contact__item-title text-h3 anchor" id="contacts">Company</h4>
+          <div class="contact__item-text">We are a creative and innovative company specializing in the implementation of
+            exceptional design solutions for various architectural projects.</div>
+        </div>
+
+        <div class="contact__item contact__item--links">
+          <h4 class="contact__item-title text-h3">Links</h4>
+          <ul class="contact__item-list">
+            <li class="contact__item-link">
+              <a href="#home">Main</a>
+            </li>
+            <li class="contact__item-link">
+              <a href="#services">About Us</a>
+            </li>
+            <li class="contact__item-link">
+              <a href="#questions">FAQ</a>
+            </li>
+            <li class="contact__item-link">
+              <a href="#reviews">Reviews</a>
+            </li>
+          </ul>
+        </div>
+        <div class="contact__item">
+          <h4 class="contact__item-title text-h3">Contact Us</h4>
+          <div class="contact__item-adress">213 Baker Street<br>Oriel City Kounty<br>7000 KNW</div>
+          <div class="contact__item-number">
+            <a href="tel:+239942334022">+23 994 233 4022</a>
+          </div>
+          <div class="contact__item-mail">
+            <a href="mailto:info@konstruct.com">info@konstruct.com</a>
+          </div>
+        </div>
+
+        <div class="contact__item">
+          <h4 class="contact__item-title text-h3">Socials</h4>
+          <div class="contact__socials">
+            <a class="contact__socials-item" href="https://www.facebook.com/" target="_blank">
+              <svg class="contact__socials-icon">
+                <use xlink:href="#facebook"></use>
+              </svg>
+            </a>
+            <a class="contact__socials-item" href="https://twitter.com/" target="_blank">
+              <svg class="contact__socials-icon">
+                <use xlink:href="#twitter"></use>
+              </svg>
+            </a>
+            <a class="contact__socials-item" href="https://www.google.com/" target="_blank">
+              <svg class="contact__socials-icon">
+                <use xlink:href="#google"></use>
+              </svg>
+            </a>
+          </div>
+          <h4 class="contact__shedule text-h3">Working hours</h4>
+          <div class="contact__shedule-item">
+            10:00 - 20:00 <span>Daily</span>
+            <div>
+            </div>
+          </div>
+        </div>
+  </section>
+
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__copyright">
+          © 2023 Konstruct Inc.
+        </div>
+        <div class="footer__brand">
+          Created by SQStudio
+        </div>
+      </div>
+  </footer>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
