@@ -88,7 +88,7 @@ function building() {
     'app/css/style.min.css',
     'app/images/**/*.*',
     '!app/images/src/**',
-    '!app/images/*.svg',
+    // '!app/images/*.svg',
     '!app/images/stack/sprite.stack.html',
     // 'app/images/sprite.svg',
     'app/fonts/*.*',
